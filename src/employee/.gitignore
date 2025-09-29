@@ -1,0 +1,39 @@
+# Python
+*.py[cod]
+__pycache__/
+*.so
+
+# Virtual environments
+env/
+venv/
+
+# Django
+*.log
+*.pot
+local_settings.py
+db.sqlite3
+media/
+*.pyc
+
+# Environment files
+.env
+
+# IDE / Editor
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# Docker / Certificates
+.dockerignore
+docker-compose.yaml
+Dockerfile
+*.pem
+*.json
